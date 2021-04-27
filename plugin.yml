@@ -1,0 +1,23 @@
+name: SaveAll
+main: ru.astakhovmd.SaveAll.SaveAll
+softdepend: []
+dev-url: https://astakhovmd.ru/
+loadbefore: []
+version: '1.0.0'
+api-version: '1.16'
+commands:
+  expropriate:
+    description: Deletes a claim.
+    usage: /expropriate <player>
+    aliases: []
+    permission: saveall.expropriate
+  restoreInv:
+    description: Deletes a claim.
+    usage: /restoreInv <player>
+    aliases: [ ]
+    permission: saveall.restore
+  receiveInv:
+    description: Deletes a claim.
+    usage: /receiveInv <player>
+    aliases: [ ]
+    permission: saveall.restore
